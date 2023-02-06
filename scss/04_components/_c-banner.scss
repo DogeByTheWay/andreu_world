@@ -1,0 +1,13 @@
+.c-banner{
+    display: flex;
+    height: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -200px;
+    &__titulo{
+        text-align: center;
+        color: getColors("blanco",0);
+        font-family: getFontFamily("principal");
+        font-size: getFontSize('10xl');
+    }
+}

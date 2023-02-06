@@ -1,0 +1,14 @@
+.c-nav {
+    display: grid;
+    grid-template-columns: repeat(5,120px);
+    gap:getGap(8);
+    align-items: center;
+    font-family: getFontFamily('principal');
+    &__item {
+        margin: getMargin(3);
+        color:getColors("blanco",0);
+        &--derecha {
+            margin-left: auto;
+        }
+    }
+}
